@@ -29,7 +29,7 @@ A loadout randomizer.
 |        rando_perks_mode |               0 | Skip giving perks                                                                              |
 |                         |               1 | Give base perks only                                                                           |
 |                         |               2 | (default) Give pro-tier perks                                                                  |
-|                         |               3 | Shuffle each perk slot with base and pro-tier perks                                            |
+|                         |               3 | Give base perks, each slot has 1/2 chance to be upgraded to pro-tier                           |
 |             rando_mains | [integer value] | (default: 2) Preferred amount of main weapons to give per class                                |
 |       rando_attachments | [integer value] | (default: 1) Preferred amount of attachments per main weapon                                   |
 |          rando_interval |               0 | Mid-round class changing disabled                                                              |
