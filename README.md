@@ -22,22 +22,25 @@ A loadout randomizer.
 
 ### dvars
 
-|                  Name |           Value | Effect                                                                                         |
-|:----------------------|----------------:|:-----------------------------------------------------------------------------------------------|
-|          rando_enable |               0 | (default) Disable rando script                                                                 |
-|                       |               1 | Enable rando                                                                                   |
-|      rando_perks_mode |               0 | Skip giving perks                                                                              |
-|                       |               1 | Give base perks only                                                                           |
-|                       |               2 | (default) Give pro-tier perks                                                                  |
-|                       |               3 | Shuffle each perk slot with base and pro-tier perks                                                               |
-|           rando_mains | [integer value] | (default: 2) Preferred amount of main weapons to give per class                                |
-|     rando_attachments | [integer value] | (default: 1) Preferred amount of attachments per main weapon                                   |
-|        rando_interval |               0 | Mid-round class changing disabled                                                              |
-|                       | [integer value] | (default: 55) Countdown interval in seconds before a new class is applied to players mid-game  |
-| rando_interval_reruns |               0 | (default) Restart interval after countdown indefinitely                                        |
-|                       | [integer value] | The amount of times to restart interval timer after countdown                                  |
-|        rando_oma_mode |               1 | (default) One Man Army occupies a main weapon slot                                             |
-|                       |               2 | Give OMA backpack in addition to given class                                                   |
+|                    Name |           Value | Effect                                                                                         |
+|:------------------------|----------------:|:-----------------------------------------------------------------------------------------------|
+|            rando_enable |               0 | (default) Disable rando script                                                                 |
+|                         |               1 | Enable rando                                                                                   |
+|        rando_perks_mode |               0 | Skip giving perks                                                                              |
+|                         |               1 | Give base perks only                                                                           |
+|                         |               2 | (default) Give pro-tier perks                                                                  |
+|                         |               3 | Shuffle each perk slot with base and pro-tier perks                                            |
+|             rando_mains | [integer value] | (default: 2) Preferred amount of main weapons to give per class                                |
+|       rando_attachments | [integer value] | (default: 1) Preferred amount of attachments per main weapon                                   |
+|          rando_interval |               0 | Mid-round class changing disabled                                                              |
+|                         | [integer value] | (default: 55) Countdown interval in seconds before a new class is applied to players mid-game  |
+|   rando_interval_reruns |               0 | (default) Restart interval after countdown indefinitely                                        |
+|                         | [integer value] | The amount of times to restart interval timer after countdown                                  |
+| rando_notify_at_seconds | [integer value] | (default: 9) Seconds before countdown to audibly tick and show next loadout preview            |
+|          rando_oma_mode |               1 | (default) One Man Army occupies a main weapon slot                                             |
+|                         |               2 | Give OMA backpack in addition to given class                                                   |
+|  rando_switch_immediate |               0 | (default) When new class is assigned mid-game, play weapon animation as though newly picked up |
+|                         |               1 | Skip primary weapon animation at class assignment, weapon is instantly ready                   |
 
 ## To-do
 - [ ] Make interval reruns indefinite at `-1`
